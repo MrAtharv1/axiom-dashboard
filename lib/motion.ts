@@ -12,9 +12,14 @@ export const axiomSpring = {
   damping: 24 
 };
 
-export const cardHover = {
-  scale: 1.02,
-  transition: axiomSpring
+export const cardHover: Variants = {
+  rest: {
+    scale: 1
+  },
+  hover: {
+    scale: 1.02,
+    transition: axiomSpring
+  }
 };
 
 export const staggerContainer: Variants = {
